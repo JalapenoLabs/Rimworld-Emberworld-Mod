@@ -1,0 +1,7 @@
+# Top-most EditorConfig file
+root = true
+
+[*.cs]
+# Use K&R style for opening braces
+# I HATE ALLMAN STYLE!!!
+csharp_new_line_before_open_brace = none
