@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Magmalope -->
+
+  <ThingDef ParentName="BoomalopeThingBase">
+    <defName>Magmalope</defName>
+    <label>magmalope</label>
+    <devNote>cow-1</devNote>
+    <description>A volcano adapted cousin of the boomalope, the Magmalope grows lava pouches on its back. When it dies, the lava material explodes and produces a deadly lava cloud. Unlike the boomalope, the Magmalope cannot be milked.</description>
+    <statBases>
+      <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>250</ComfyTemperatureMax>
+      <MeatAmount>140</MeatAmount>
+      <FilthRate>20</FilthRate>
+      <ToxicResistance>1.00</ToxicResistance>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+      <EMPResistance MayRequire="Ludeon.RimWorld.Biotech">1.00</EMPResistance>
+      <Flammability>0</Flammability>
+    </statBases>
+    <race>
+      <deathAction Inherit="False">
+        <workerClass>DeathActionWorker_BigExplosion</workerClass>
+      </deathAction>
+      <lifeExpectancy>10</lifeExpectancy>
+      <baseBodySize>1.4</baseBodySize>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.23)</li>
+        <li>(0.39, 0, -0.07)</li>
+        <li>(0.0, 0, -0.14)</li>
+        <li>(-0.39, 0, -0.07)</li>
+      </headPosPerRotation>
+    </race>
+    <comps Inherit="False">
+      <li Class="CompProperties_Milkable">
+        <milkDef>LavaBucket</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>11</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>
+    <tradeTags Inherit="False">
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="BoomalopeKindBase">
+    <defName>Magmalope</defName>
+    <label>magmalope</label>
+    <race>Magmalope</race>
+    <combatPower>80</combatPower>
+    <lifeStages Inherit="False">
+      <li>
+        <label>Magmalope calf</label>
+        <labelPlural>Magmalope calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Magmalope</texPath>
+          <drawSize>1.0</drawSize>
+          <shaderType>Cutout</shaderType>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Dessicated_Magmalope</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Corpse_Magmalope</texPath>
+          <drawSize>1.0</drawSize>
+        </corpseGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Magmalope</texPath>
+          <drawSize>1.6</drawSize>
+          <shaderType>Cutout</shaderType>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Dessicated_Magmalope</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Corpse_Magmalope</texPath>
+          <drawSize>1.5</drawSize>
+        </corpseGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Magmalope</texPath>
+          <drawSize>2.2</drawSize>
+          <shaderType>Cutout</shaderType>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Dessicated_Boomalope</texPath>
+          <drawSize>2.0</drawSize>
+        </dessicatedBodyGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Magmalope/Corpse_Magmalope</texPath>
+          <drawSize>2.2</drawSize>
+        </corpseGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

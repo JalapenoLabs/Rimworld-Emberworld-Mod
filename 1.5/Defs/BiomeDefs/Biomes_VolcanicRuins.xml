@@ -81,58 +81,23 @@
 						<min>0.73</min>
 						<max>0.78</max>
 					</li>
-					<!-- <li>
-						<terrain>RG_HotSpringSand</terrain>
-						<min>0.78</min>
-						<max>0.86</max>
-					</li> -->
-					<!-- <li>
-						<terrain>RG_HotSpring</terrain>
-						<min>0.86</min>
-						<max>1.06</max>
-					</li> -->
-					<!-- <li>
-						<terrain>RG_HotSpringDeep</terrain>
-						<min>1.06</min>
-						<max>999</max>
-					</li> -->
 				</thresholds>
 			</li>
 		</terrainPatchMakers>
 		<baseWeatherCommonalities>
 			<Clear>15</Clear>
-			<Fog>3</Fog>
-			<!-- <RG_BoilingDrizzle>2</RG_BoilingDrizzle>
-			<RG_BoilingRain>2</RG_BoilingRain> -->
+			<Fog>5</Fog>
 			<DryThunderstorm>1.25</DryThunderstorm>
-			<!-- <RG_BoilingRainyThunderstorm>1</RG_BoilingRainyThunderstorm>
-			<RG_BoilingFoggyRain>1</RG_BoilingFoggyRain> -->
+			<!-- Disable winter stuff -->
 			<SnowGentle>0</SnowGentle>
 			<SnowHard>0</SnowHard>
-			<!-- <RG_FoggySnow>2</RG_FoggySnow>
-			<RG_Overcast>6</RG_Overcast>
-			<RG_Windy>8</RG_Windy>
-			<RG_Blizzard>0.5</RG_Blizzard> -->
 		</baseWeatherCommonalities>
 		<wildPlants>
-			<!-- <RG_Plant_BoilingGrass>5.0</RG_Plant_BoilingGrass> -->
-			<!-- <RG_Plant_TallBoilingGrass>1.2</RG_Plant_TallBoilingGrass> -->
-			<!-- <RG_Plant_BoilingMoss>1.0</RG_Plant_BoilingMoss> -->
-			<!-- <RG_Plant_PurpuraCushion>0.4</RG_Plant_PurpuraCushion> -->
-			<!-- <RG_Plant_BoilingBush>0.3</RG_Plant_BoilingBush> -->
-			<!-- <RG_Plant_BramblesBoiling>1.0</RG_Plant_BramblesBoiling> -->
-			<!-- <RG_Plant_AmitisFlower>0.15</RG_Plant_AmitisFlower> -->
-			<!-- <RG_Plant_LuzincFlower>0.15</RG_Plant_LuzincFlower> -->
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 			<!-- <RG_Plant_Boilberry>0.035</RG_Plant_Boilberry> -->
-			<!-- <RG_Edaku>0.04</RG_Edaku> -->
-			<!-- <RG_Plant_Edaku>0.000000000000001</RG_Plant_Edaku> -->
-			<!--===============
-			Why the 0s? Because I cant lock them to a biome unless the value is greater than 0 because
-			fuck me I gues... ==============-->
-			<!-- <RG_Plant_BoilingTreePine>0.5</RG_Plant_BoilingTreePine> -->
-			<!-- <RG_Plant_TreeBoilingBirch>0.4</RG_Plant_TreeBoilingBirch> -->
-			<!-- <RG_Plant_SpikedBoilingTreePine>0.15</RG_Plant_SpikedBoilingTreePine> -->
+			 <!-- Volcanic trees -->
+			<Plant_Ashwood>13</Plant_Ashwood>
+			<!-- Biotech plants -->
 			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
 			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
@@ -165,11 +130,6 @@
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<Toxalope MayRequire="Ludeon.RimWorld.Biotech">1.1</Toxalope>
 			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
-			<!-- <VAEWaste_Wasteffalo MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wasteffalo>
-			<VAEWaste_Toxbear MayRequire="VanillaExpanded.VAEWaste">0.05</VAEWaste_Toxbear>
-			<VAEWaste_Toxafox MayRequire="VanillaExpanded.VAEWaste">0.04</VAEWaste_Toxafox>
-			<VAEWaste_Wasteboar MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wasteboar>
-			<VAEWaste_Wastedeer MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wastedeer> -->
 			<Rat>0.4</Rat>
 			<Raccoon>0.6</Raccoon>
 			<Warg>0.3</Warg>

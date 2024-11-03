@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  <!-- Trees -->
+
+  <ThingDef ParentName="TreeBase">
+    <defName>Plant_Ashwood</defName>
+    <label>ashwood tree</label>
+    <description>One of the most common volcanic trees. Warped, ugly, dry and twisted in nature but surprisingly firm. Ashwood grows with a personality at a reasonable rate, that can be harvested for wood.</description>
+    <graphicData>
+      <!-- TODO: update texture -->
+      <texPath>Things/Plant/TreeCecropia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.18, 0.3, 0.15)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>0.75</Beauty>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <plant>
+      <growDays>7</growDays>
+      <harvestWork>380</harvestWork>
+      <harvestYield>35</harvestYield>
+      <wildClusterRadius>10</wildClusterRadius>
+      <wildClusterWeight>11</wildClusterWeight>
+      <!-- TODO: update texture -->
+      <leaflessGraphicPath>Things/Plant/TreeCecropia_Leafless</leaflessGraphicPath>
+      <!-- TODO: update texture -->
+      <immatureGraphicPath>Things/Plant/TreeCecropia_Immature</immatureGraphicPath>
+    </plant>
+    <ingestible />
+  </ThingDef>
+
+</Defs>
