@@ -2,6 +2,8 @@
 
 *Survive and thrive in the searing heat of the Emberwild Biome!*
 
+![Preview](About/Preview.png)
+
 ---
 
 ## Status
