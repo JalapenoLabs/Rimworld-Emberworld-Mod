@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Emberworld Volcano Biomes</name>
+  <author>Jalapeno Labs</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>io.JalapenoLabs.Emberworld</packageId>
+  <url>https://www.jalapenolabs.io/rimworld/Emberworld</url>
+  <modVersion IgnoreIfNoMatchingField="True">1.0-DEV</modVersion>
+  <!-- <modIconPath IgnoreIfNoMatchingField="True">UI/RG_ModIcon</modIconPath> -->
+  <description>Emberworld Biome is a mod for RimWorld that introduces a new, challenging environment
+    inspired by volcanic activity and extreme heat.
+
+    This biome pushes your survival skills to the limit with scorching temperatures ranging from
+    90°F to 150°F, dynamic volcanic landscapes, and unique flora and fauna adapted to the fiery
+    conditions.</description>
+  <modDependencies>
+    <!-- Regorwth Core -->
+    <!-- <li>
+      <packageId>ReGrowth.BOTR.Core</packageId>
+      <displayName>ReGrowth: Core</displayName>
+      <downloadUrl>https://github.com/Helixien/ReGrowth-Core</downloadUrl>
+    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</steamWorkshopUrl>
+    </li> -->
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>ReGrowth.BOTR.Core</li>
+  </loadAfter>
+  <loadBefore>
+    <li>VanillaExpanded.VPlantsE</li>
+    <li>Balthoraz.RimUniverse.BiomesModule</li>
+  </loadBefore>
+</ModMetaData>

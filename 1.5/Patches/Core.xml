@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- ================ Herd migration patch ================ -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/IncidentDef[defName="HerdMigration"]/allowedBiomes</xpath>
+				<value>
+					<li>VolcanicRuins</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

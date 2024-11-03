@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<BiomeDef>
+		<defName>VolcanicRuins</defName>
+		<label>Volcanic Ruins</label>
+		<!-- TODO: Update -->
+		<description>Also called the Emberworld, colorful volcanic ruins, lava, ashwood trees, magma creatures, pyroclast beasts, intense heatwaves, unique fire peppers, and steaming hot springs. Only a few types of animals move around among the ashwood trees, due to the high elevation and hot atmosphere.\n\nThe local elders claim it is the result of an ancient mega-corp nuking the planet to terraform it.</description>
+		<workerClass>EmberWorld.BiomeWorker_VolcanicRuins</workerClass>
+		<animalDensity>2.5</animalDensity>
+		<plantDensity>0.4</plantDensity>
+		<settlementSelectionWeight>0.75</settlementSelectionWeight>
+		<movementDifficulty>1.2</movementDifficulty>
+		<texture>World/Biomes/EmberWorld</texture>
+		<forageability>0.8</forageability>
+		<!-- <foragedFood>RG_RawBoilberries</foragedFood> -->
+		<wildPlantRegrowDays>35</wildPlantRegrowDays>
+		<!-- <soundsAmbient>
+			<li>Ambient_NightInsects_Standard</li>
+		</soundsAmbient> -->
+		<diseaseMtbDays>55</diseaseMtbDays>
+		<diseases>
+			<li>
+				<diseaseInc>Disease_Flu</diseaseInc>
+				<commonality>80</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Plague</diseaseInc>
+				<commonality>80</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Malaria</diseaseInc>
+				<commonality>35</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_GutWorms</diseaseInc>
+				<commonality>35</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
+				<commonality>15</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
+				<commonality>15</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_MuscleParasites</diseaseInc>
+				<commonality>10</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_AnimalFlu</diseaseInc>
+				<commonality>50</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_AnimalPlague</diseaseInc>
+				<commonality>50</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_OrganDecay</diseaseInc>
+				<commonality>10</commonality>
+			</li>
+		</diseases>
+		<terrainsByFertility>
+			<li>
+				<terrain>Soil</terrain>
+				<min>-999</min>
+				<max>0.87</max>
+			</li>
+			<li>
+				<terrain>SoilRich</terrain>
+				<min>0.87</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>SoilRich</terrain>
+						<min>0.73</min>
+						<max>0.78</max>
+					</li>
+					<!-- <li>
+						<terrain>RG_HotSpringSand</terrain>
+						<min>0.78</min>
+						<max>0.86</max>
+					</li> -->
+					<!-- <li>
+						<terrain>RG_HotSpring</terrain>
+						<min>0.86</min>
+						<max>1.06</max>
+					</li> -->
+					<!-- <li>
+						<terrain>RG_HotSpringDeep</terrain>
+						<min>1.06</min>
+						<max>999</max>
+					</li> -->
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		<baseWeatherCommonalities>
+			<Clear>15</Clear>
+			<Fog>3</Fog>
+			<!-- <RG_BoilingDrizzle>2</RG_BoilingDrizzle>
+			<RG_BoilingRain>2</RG_BoilingRain> -->
+			<DryThunderstorm>1.25</DryThunderstorm>
+			<!-- <RG_BoilingRainyThunderstorm>1</RG_BoilingRainyThunderstorm>
+			<RG_BoilingFoggyRain>1</RG_BoilingFoggyRain> -->
+			<SnowGentle>0</SnowGentle>
+			<SnowHard>0</SnowHard>
+			<!-- <RG_FoggySnow>2</RG_FoggySnow>
+			<RG_Overcast>6</RG_Overcast>
+			<RG_Windy>8</RG_Windy>
+			<RG_Blizzard>0.5</RG_Blizzard> -->
+		</baseWeatherCommonalities>
+		<wildPlants>
+			<!-- <RG_Plant_BoilingGrass>5.0</RG_Plant_BoilingGrass> -->
+			<!-- <RG_Plant_TallBoilingGrass>1.2</RG_Plant_TallBoilingGrass> -->
+			<!-- <RG_Plant_BoilingMoss>1.0</RG_Plant_BoilingMoss> -->
+			<!-- <RG_Plant_PurpuraCushion>0.4</RG_Plant_PurpuraCushion> -->
+			<!-- <RG_Plant_BoilingBush>0.3</RG_Plant_BoilingBush> -->
+			<!-- <RG_Plant_BramblesBoiling>1.0</RG_Plant_BramblesBoiling> -->
+			<!-- <RG_Plant_AmitisFlower>0.15</RG_Plant_AmitisFlower> -->
+			<!-- <RG_Plant_LuzincFlower>0.15</RG_Plant_LuzincFlower> -->
+			<Plant_HealrootWild>0.05</Plant_HealrootWild>
+			<!-- <RG_Plant_Boilberry>0.035</RG_Plant_Boilberry> -->
+			<!-- <RG_Edaku>0.04</RG_Edaku> -->
+			<!-- <RG_Plant_Edaku>0.000000000000001</RG_Plant_Edaku> -->
+			<!--===============
+			Why the 0s? Because I cant lock them to a biome unless the value is greater than 0 because
+			fuck me I gues... ==============-->
+			<!-- <RG_Plant_BoilingTreePine>0.5</RG_Plant_BoilingTreePine> -->
+			<!-- <RG_Plant_TreeBoilingBirch>0.4</RG_Plant_TreeBoilingBirch> -->
+			<!-- <RG_Plant_SpikedBoilingTreePine>0.15</RG_Plant_SpikedBoilingTreePine> -->
+			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
+			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
+			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">2</Plant_Witchwood>
+		</wildPlants>
+		<wildAnimals>
+			<Yak>0.12</Yak>
+			<Horse>0.15</Horse>
+			<Squirrel>0.1</Squirrel>
+			<Hare>0.1</Hare>
+			<Rat>0.2</Rat>
+			<Elk>0.2</Elk>
+			<Caribou>0.3</Caribou>
+			<Muffalo>0.3</Muffalo>
+			<WildBoar>0.2</WildBoar>
+			<Raccoon>0.3</Raccoon>
+			<Turkey>0.3</Turkey>
+			<Alpaca>0.3</Alpaca>
+			<Deer>0.4</Deer>
+			<Boomalope>1.2</Boomalope>
+			<Boomrat>1.8</Boomrat>
+			<Gazelle>0.05</Gazelle>
+			<Megasloth>0</Megasloth>
+			<Fox_Red>0.25</Fox_Red>
+			<Wolf_Timber>0.15</Wolf_Timber>
+			<Cougar>0.02</Cougar>
+			<Lynx>0.05</Lynx>
+			<!-- TODO: Neutrinolope? -->
+		</wildAnimals>
+		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+			<Toxalope MayRequire="Ludeon.RimWorld.Biotech">1.1</Toxalope>
+			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+			<!-- <VAEWaste_Wasteffalo MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wasteffalo>
+			<VAEWaste_Toxbear MayRequire="VanillaExpanded.VAEWaste">0.05</VAEWaste_Toxbear>
+			<VAEWaste_Toxafox MayRequire="VanillaExpanded.VAEWaste">0.04</VAEWaste_Toxafox>
+			<VAEWaste_Wasteboar MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wasteboar>
+			<VAEWaste_Wastedeer MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wastedeer> -->
+			<Rat>0.4</Rat>
+			<Raccoon>0.6</Raccoon>
+			<Warg>0.3</Warg>
+		</pollutionWildAnimals>
+		<allowedPackAnimals>
+			<li>Muffalo</li>
+			<li>Alpaca</li>
+		</allowedPackAnimals>
+	</BiomeDef>
+</Defs>
