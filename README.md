@@ -65,7 +65,7 @@
 - **Intense Heatwaves:** Challenge your colony's resilience.
 - **Lava rising:** lava may rise as an event when the volcano begins to erupt!
 
-### ⚠️ New ideology faction
+### 🛐 New ideology faction
 - **Magma cultists:** A group that worships the volcanoes and may be friendly or hostile depending on interactions.
 
 ---
