@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- ================ Add a generation step for the map ================ -->
+  <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/MapGeneratorDef[defName="Base_Player"]/genSteps</xpath>
+		<value>
+				<li>EmberWorld</li>
+		</value>
+	</Operation>
+</Patch>

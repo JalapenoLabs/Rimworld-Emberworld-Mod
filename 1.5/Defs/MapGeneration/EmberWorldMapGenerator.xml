@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GenStepDef>
+      <defName>EmberWorld</defName>
+      <label>Adds additional biome elements for Volcanic Ruins biomes</label>
+      <description>Adds volcanos, additional steam geysers, and lava to the Volcanic Ruins biome.</description>
+      <order>2000</order>
+      <genStep Class="EmberWorld.GenStep_EmberWorld"></genStep>
+  </GenStepDef>
+</Defs>
