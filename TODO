@@ -1,53 +1,53 @@
 - Biome addons:
-        - Volcanos
-          - Dormant vs active volcanos
-        - Static lava rivers / pools
-          - Wood might catch on fire randomly around lava
-          - Lava is unpassable and will harm villagers
-          - Lava can be harvested / used for power generation
-          - Late game, lava can be removed
-        - Ashwood trees, that thrive in ash-rich soil, providing a sturdy type of wood resistant to fire.
-        - Craters
-        - High steam guiser spawn rate
-        - High slate spawn rate, especially around volcano
-        - No water or river spawning
-        - Great for pollution, as pollution will disappate quicker in this biome due to the heat
-        - Overall plant life, floor, and biome feel
+    - Volcanos
+      - Dormant vs active volcanos
+    - Static lava rivers / pools
+      - Wood might catch on fire randomly around lava
+      - Lava is unpassable and will harm villagers
+      - Lava can be harvested / used for power generation
+      - Late game, lava can be removed
+    - Ashwood trees, that thrive in ash-rich soil, providing a sturdy type of wood resistant to fire.
+    - Craters
+    - High steam guiser spawn rate
+    - High slate spawn rate, especially around volcano
+    - No water or river spawning
+    - Great for pollution, as pollution will disappate quicker in this biome due to the heat
+    - Overall plant life, floor, and biome feel
 
 - New creature types:
-        - Magma cubes Magma slime cube, juzzst like minecraft lol
-        - Pyroclasts Magma slime creatures that are mostly dormant, absort a lot of heat, can breathe fire, and mostly wanders taking cat naps in the lava
-        - ++ DONE ++ Lavalopes, mutated lava-resistant creatures that drink water or lava, and produce lava on it's back sacks
-        - Lavarats, mutated lava-resistant creatures that drink water or lava, and produce lava on it's back sacks
+    - Magma cubes Magma slime cube, juzzst like minecraft lol
+    - Pyroclasts Magma slime creatures that are mostly dormant, absort a lot of heat, can breathe fire, and mostly wanders taking cat naps in the lava
+    - ++ DONE ++ Lavalopes, mutated lava-resistant creatures that drink water or lava, and produce lava on it's back sacks
+    - Lavarats, mutated lava-resistant creatures that drink water or lava, and produce lava on it's back sacks
 - New foods / flora / fauna:
-        - Flame vines, vines that glow with an inner heat, possibly used for low-lighting or crafting materials.
-        - Cinder blooms, flowers that only open during the hottest part of the day, could be used for unique medicines.
-        - Fire Peppers, spicy plants that can be used in cooking to make meals that provide temporary heat resistance.
-        - Sulfur Mushrooms, fungi that grow near steam geysers, useful for crafting or as a food source with side effects.
-        - ++ DONE ++ Ember Berries, heat-tolerant berries that can be harvested for food or brewing special beverages.
-        - ++ DONE ++ Cinder beer, a unique beverage that provides temporary heat resistance.
-        - Pumpkins grow regularly if the user has the right mod installed for pumpkins
+    - Flame vines, vines that glow with an inner heat, possibly used for low-lighting or crafting materials.
+    - Cinder blooms, flowers that only open during the hottest part of the day, could be used for unique medicines.
+    - Fire Peppers, spicy plants that can be used in cooking to make meals that provide temporary heat resistance.
+    - Sulfur Mushrooms, fungi that grow near steam geysers, useful for crafting or as a food source with side effects.
+    - ++ DONE ++ Ember Berries, heat-tolerant berries that can be harvested for food or brewing special beverages.
+    - ++ VOID ++ Cinder beer, a unique beverage that provides temporary heat resistance.
+    - Pumpkins grow regularly if the user has the right mod installed for pumpkins
 
 - New weather types:
-        - Acid rain - Stream storms (unique effect on machinery, low vision)
-        - Meteor showers
-        - Need to make ash effect more common
+    - Acid rain - Stream storms (unique effect on machinery, low vision)
+    - Meteor showers
+    - Need to make ash effect more common
 
 - New machines:
-        - Lava harvester - Lava tanks
-        - Lava power generators
+    - Lava harvester - Lava tanks
+    - Lava power generators
 
 - New items:
-        - Geothermal Crystals, rare materials that could power advanced technology or be highly valuable.
-        - ++ DONE ++ Lava bucket
+    - Geothermal Crystals, rare materials that could power advanced technology or be highly valuable.
+    - ++ DONE ++ Lava bucket
 - New factions:
-        - Magma cultists: A group that worships the volcanoes and may be friendly or hostile depending on interactions.
+    - Magma cultists: A group that worships the volcanoes and may be friendly or hostile depending on interactions.
 - New events:
-        - Heat waves - Eruption
-        - Lava rising
-        - Toxic gas
+    - Heat waves - Eruption
+    - Lava rising
+    - Toxic gas
 
 - Research:
-        - Heat-Resistant Materials: Unlock new building options that withstand extreme temperatures.
-        - Advanced Cooling Systems: Essential for survival, could include personal gear or building upgrades.
-        - Lava Energy Harnessing: Develop ways to generate power directly from lava flows or volcanic activity.
+    - Heat-Resistant Materials: Unlock new building options that withstand extreme temperatures.
+    - Advanced Cooling Systems: Essential for survival, could include personal gear or building upgrades.
+    - Lava Energy Harnessing: Develop ways to generate power directly from lava flows or volcanic activity.

@@ -42,7 +42,7 @@
     <description>A fire resistant bush, that grows dimly glowing warm berries that can be harvested for delivious food or brewing special beverages. Berries can be cooked, but they're also good to eat even when raw.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
-      <Nutrition>0.50</Nutrition>
+      <Nutrition>0.12</Nutrition>
       <Flammability>0.1</Flammability>
     </statBases>
     <graphicData>
