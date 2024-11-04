@@ -95,11 +95,12 @@
 		<wildPlants>
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 			<!-- <RG_Plant_Boilberry>0.035</RG_Plant_Boilberry> -->
-			 <!-- Volcanic trees -->
-			<Plant_Ashwood>13</Plant_Ashwood>
+			 <!-- Emberworld specific -->
+			<Plant_Ashwood>2</Plant_Ashwood>
+			<Plant_EmberBerryBush>1.5</Plant_EmberBerryBush>
 			<!-- Biotech plants -->
-			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
-			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>
+			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">1</Plant_Ripthorn>
+			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">2</Plant_TreeGrayPine>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
 			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">2</Plant_Witchwood>
 		</wildPlants>
