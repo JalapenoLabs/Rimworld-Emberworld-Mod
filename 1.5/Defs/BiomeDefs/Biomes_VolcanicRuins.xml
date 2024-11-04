@@ -103,6 +103,8 @@
 			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">2</Plant_TreeGrayPine>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
 			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">2</Plant_Witchwood>
+			<!-- External mod support -->
+			 <VCE_Pumpkin MayRequire="VanillaExpanded.VPlantsE">1.5</VCE_Pumpkin>
 		</wildPlants>
 		<wildAnimals>
 			<Yak>0.12</Yak>
@@ -126,7 +128,8 @@
 			<Wolf_Timber>0.15</Wolf_Timber>
 			<Cougar>0.02</Cougar>
 			<Lynx>0.05</Lynx>
-			<!-- TODO: Neutrinolope? -->
+			<!-- External mod support -->
+			<RG_Neutrolope MayRequire="ReGrowth.BOTR.Core">0.02</RG_Neutrolope>
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<Toxalope MayRequire="Ludeon.RimWorld.Biotech">1.1</Toxalope>
